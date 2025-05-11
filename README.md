@@ -5,7 +5,7 @@ This is a Shopify-inspired project built using React. The project implements a l
 ## Demo
 
 You can view the live demo of the application here:  
-[Shopify React Demo](https://6820d83b576dd631c1636b9f--earnest-zuccutto-4ad3fd.netlify.app/)
+[Shopify React Demo](https://radiant-hummingbird-1f8225.netlify.app/)
 
 ## Features
 

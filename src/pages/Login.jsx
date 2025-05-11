@@ -15,6 +15,10 @@ const Login = () => {
   const navigate = useNavigate()
 
   const handleCreateUser = () => {
+    if(!email || !password){
+      toast.error("Please fill all fields")
+      return
+    }
     const newUser = { email, password }; 
     
     const existingUser = JSON.parse(localStorage.getItem("users")) || []
@@ -36,6 +40,10 @@ const Login = () => {
   };
 
   const handleLogin = () => {
+    if(!email || !password){
+      toast.error("Please fill all fields")
+      return
+    }
     const storedUser = localStorage.getItem("users")
 
     if(!storedUser){
